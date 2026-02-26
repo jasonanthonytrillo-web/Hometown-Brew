@@ -242,16 +242,21 @@ function Contact() {
               </div>
             </div>
             
-            {/* Location Image */}
+            {/* Location Image - Clickable Link */}
             <div className="location-image-wrapper">
               <h3>Find Us</h3>
-              <div className="location-image-container">
+              <a 
+                href="https://www.google.com/maps/place/Hometown+Brew+Caf%C3%A9/@8.9760371,125.4122931,20.36z/data=!4m6!3m5!1s0x3301c700508e70c9:0x61962a9e35c930ce!8m2!3d8.976178!4d125.4125414!16s%2Fg%2F11yzcywcgz?entry=ttu&g_ep=EgoyMDI2MDIyMy4wIKXMDSoASAFQAw%3D%3D" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="location-image-container"
+              >
                 <img 
                   src="/location.png" 
                   alt="Our Location" 
                   className="location-image"
                 />
-              </div>
+              </a>
               <p className="location-directions">
                 Visit us at Cagampang St, Buenavista, Agusan del Norte
               </p>

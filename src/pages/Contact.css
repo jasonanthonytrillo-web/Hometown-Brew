@@ -383,6 +383,7 @@
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(27, 67, 50, 0.15);
+  cursor: pointer;
 }
 
 .location-image {
